@@ -9,14 +9,11 @@ public class RelayDelivery implements Delivery {
 
     @Override
     public Double getPrice() {
-        if (number >= 1 && number <= 22)  {
+        if (number >= 1 && number <= 22)
             return 0.0;
-        }
-        else if (number > 23 && number <= 47){
+        else if (number >= 23 && number <= 47)
             return 2.99;
-        }
-        else{
+        else
             return 4.99;
-        }
     }
 }
