@@ -4,11 +4,6 @@ public class Customer {
     private String fullname;
     private String address;
 
-    public Customer() {
-        this.fullname = "unknown";
-        this.address = "unknown";
-    }
-
     public Customer(String fullname, String address) {
         this.fullname = fullname;
         this.address = address;

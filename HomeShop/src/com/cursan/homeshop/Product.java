@@ -5,9 +5,22 @@ public class Product {
     String description;
     Double price;
 
-    public void look(){
-
+    public Product(String name, String description, Double price) {
+        this.name = name;
+        this.description = description;
+        this.price = price;
     }
+
+    /**
+     * Display a full description of the product
+     */
+    public void look(){
+        System.out.println(String.format(name + " : " + price + "%n" + description));
+    }
+
+    /**
+     * Add the product to a Bill
+     */
 
     public void buy(Bill bill, int quantity ){
         System.out.println(String.format(name + " : " + price + "%n" + description));
