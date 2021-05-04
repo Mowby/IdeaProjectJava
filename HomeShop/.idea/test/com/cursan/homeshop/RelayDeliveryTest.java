@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class RelayDeliveryTest {
+public class RelayDeliveryTest {
 
     @Test
     public void Given_FreeRelay_WhenGettingDeliveryPrice_ThenGet0e() {
