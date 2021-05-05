@@ -16,4 +16,9 @@ public class RelayDelivery implements Delivery {
         else
             return 4.99;
     }
+
+    public String affiche(){
+        String typeDeLivraison = "livraison en point relais";
+        return typeDeLivraison;
+    }
 }
