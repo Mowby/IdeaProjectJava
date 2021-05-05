@@ -14,4 +14,9 @@ public class ExpressDelivery implements Delivery{
         else
             return 9.99;
     }
+
+    public String affiche(){
+        String typeDeLivraison = "livraison express";
+        return typeDeLivraison;
+    }
 }
